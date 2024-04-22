@@ -193,6 +193,8 @@ figure {
   #colorlib-aside .colorlib-footer {
     font-size: 15px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
     font-weight: 400;
     color: #EEEEEE;
     padding: 0 20px;
