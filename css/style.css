@@ -296,9 +296,13 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            min-height: auto;  /* Remove the min-height constraint */
-            height: 100vh;  /* Take full viewport height */
-            padding: 1em;  /* Adjust padding for mobile */; } }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
