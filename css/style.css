@@ -297,11 +297,14 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            display: flex; /* Use flexbox for mobile */
+            display: flex;
             flex-direction: column;
-            justify-content: center; /* Center vertically */
-            align-items: flex-start; /* Align to the left (like text-align: left) */
-            min-height: calc(100vh - 50px);} }
+            justify-content: center;
+            align-items: flex-start;
+            min-height: calc(100vh - 50px);
+            margin: 0;
+            padding: 0; 
+            vertical-align:initial;}}
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
