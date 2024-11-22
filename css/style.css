@@ -266,7 +266,8 @@ figure {
       @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
-          top: 100px; } }
+          top: 100px; 
+          display: none} }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
@@ -296,12 +297,7 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-              display: flex; /* Use flexbox for mobile */
-              flex-direction: column;
-              justify-content: center; /* Center vertically */
-              align-items: flex-start; /* Align to the left (like text-align: left) */
-              min-height: calc(100vh - 50px); /* Adjust height dynamically */
-              padding: 1.5em; /* Adjust padding for smaller screens */ } }
+            text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
