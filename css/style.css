@@ -296,13 +296,12 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh; } }
+              display: flex; /* Use flexbox for mobile */
+              flex-direction: column;
+              justify-content: center; /* Center vertically */
+              align-items: flex-start; /* Align to the left (like text-align: left) */
+              min-height: calc(100vh - 50px); /* Adjust height dynamically */
+              padding: 1.5em; /* Adjust padding for smaller screens */ } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
